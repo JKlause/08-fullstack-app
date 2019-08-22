@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Add A Trumpet Player To Database</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/components/app/Header.css">
+    <link rel="stylesheet" href="src/components/app/FormApp.css">
 </head>
 <body>
     <header>
@@ -23,52 +26,54 @@
             <h2>Add A Trumpet Player To Database</h2>
             <form id="trumpet-form">
                 <div>
-                    <label for="last-name">Enter Last Name:</label>
-                    <input type="text" name="last-name" id="last-name" required>
-                </div>
-                <div>
-                    <label for="first-name">Enter First Name:</label>
-                    <input type="text" name="first-name" id="first-name" required>
-                </div>
-                <div>
-                    <label for="age">Enter Age:</label>
-                    <input type="number" name="age" id="age" min="0" max="100" required>
-                </div>
-                <div>
-                    <label for="type-1">Select First Type</label>
-                    <select id="type-1" name="type-1" required>
-                        <option value="n/a">N/A</option>
-                        <option value="commercial">Commercial</option>
-                        <option value="free-lance">Free-lance</option>
-                        <option value="orchestral">Orchestral</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="type-2">Select Second Type</label>
-                    <select id="type-2" name="type-2" required>
-                        <option value="n/a">N/A</option>
-                        <option value="commercial">Commercial</option>
-                        <option value="free-lance">Free-lance</option>
-                        <option value="orchestral">Orchestral</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="main-ensemble">Enter Main Ensemble:</label>
-                    <input type="text" name="main-ensemble" id="main-ensemble" required>
-                </div>
-                <div>
-                    <label for="secondary-ensemble">Enter Secondary Ensemble:</label>
-                    <input type="text" name="secondary-ensemble" id="secondary-ensemble" required>
-                </div>
-                <div>
-                    <h3>Is College Teacher?</h3>
                     <div>
-                        <input type="radio" id="teacher-false" name="is-college-teacher" value="false" checked=true>
-                        <label for="teacher-false">False</label>
+                        <input type="text" name="last-name" id="last-name" required>
+                        <label for="last-name">Enter Last Name</label>
                     </div>
                     <div>
-                        <input type="radio" id="teacher-true" name="is-college-teacher" value="true">
-                        <label for="teacher-true">True</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                        <label for="first-name">Enter First Name</label>
+                    </div>
+                    <div>
+                        <input type="number" name="age" id="age" min="0" max="100" required>
+                        <label for="age">Enter Age</label>
+                    </div>
+                    <div>
+                        <select id="type-1" name="type-1" required>
+                            <option value="n/a">N/A</option>
+                            <option value="commercial">Commercial</option>
+                            <option value="free-lance">Free-lance</option>
+                            <option value="orchestral">Orchestral</option>
+                        </select>
+                        <label for="type-1">Select First Type</label>
+                    </div>
+                    <div>
+                        <select id="type-2" name="type-2" required>
+                            <option value="n/a">N/A</option>
+                            <option value="commercial">Commercial</option>
+                            <option value="free-lance">Free-lance</option>
+                            <option value="orchestral">Orchestral</option>
+                        </select>
+                        <label for="type-2">Select Second Type</label>
+                    </div>
+                    <div>
+                        <input type="text" name="main-ensemble" id="main-ensemble" required>
+                        <label for="main-ensemble">Enter Main Ensemble</label>
+                    </div>
+                    <div>
+                        <input type="text" name="secondary-ensemble" id="secondary-ensemble" required>
+                        <label for="secondary-ensemble">Enter Secondary Ensemble</label>
+                    </div>
+                    <div id="is-college-teacher">
+                        <h3>Is College Teacher?</h3>
+                        <div>
+                            <input type="radio" id="teacher-false" name="is-college-teacher" value="false" checked=true>
+                            <label for="teacher-false">False</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="teacher-true" name="is-college-teacher" value="true">
+                            <label for="teacher-true">True</label>
+                        </div>
                     </div>
                 </div>
             </form>
