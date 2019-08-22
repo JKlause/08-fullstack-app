@@ -159,4 +159,4 @@ module.exports = [
         secondEnsemble: 'n/a',
         isCollegeTeacher: false
     }
-]
+];

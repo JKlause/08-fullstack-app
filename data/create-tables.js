@@ -26,4 +26,4 @@ client.connect()
     )
     .then(() => {
         client.end();
-    })
+    });

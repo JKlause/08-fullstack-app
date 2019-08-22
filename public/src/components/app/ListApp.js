@@ -3,7 +3,7 @@ import Header from './Header.js';
 
 class ListApp extends Component {
     onRender(dom) {
-        const header = new Header();
+        const header = new Header({ title: 'The PDX Trumpet Player List' });
         dom.prepend(header.renderDOM());
     }
     renderHTML() {
