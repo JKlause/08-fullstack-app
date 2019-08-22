@@ -34,7 +34,7 @@ tbody {
 }
 
 table th, table td {
-    text-align: right;
+    text-align: left;
     padding: 10px;
 }
 

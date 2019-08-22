@@ -18,13 +18,13 @@ app.get('/api/trpt-players', (req, res) => {
     client.query(`
     SELECT
         id,
-        lastName,
-        firstName,
+        lastname,
+        firstname, 
         age,
-        mainType,
-        secondType,
-        mainEnsemble,
-        secondEnsemble,
+        maintype,
+        secondtype,
+        mainensemble,
+        secondensemble,
         is_college_teacher as "isCollegeTeacher"
     FROM trpt_players;
     `)

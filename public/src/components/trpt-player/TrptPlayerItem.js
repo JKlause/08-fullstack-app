@@ -1,21 +1,22 @@
 import Component from '../Component.js';
 
+
 class TrptPlayer extends Component {
     renderHTML() {
-        const trptPlayer = this.props.trptPlayer;
-
+        
+        const trumpetPlayer = this.props.trumpetPlayers;
         return /*html*/`
-            <tr>
-                <td>${trptPlayer.lastName}</td>
-                <td>${trptPlayer.firstName}</td>
-                <td>${trptPlayer.age}</td>
-                <td>${trptPlayer.mainType}</td>
-                <td>${trptPlayer.secondType}</td>
-                <td>${trptPlayer.mainEnsemble}</td>
-                <td>${trptPlayer.secondEnsemble}</td>
-                <td>${trptPlayer.isCollegeTeacher}</td>
-            </tr>
-        `;
+                <tr>
+                    <td>${trumpetPlayer.lastname}</td>
+                    <td>${trumpetPlayer.firstname}</td>
+                    <td>${trumpetPlayer.age}</td>
+                    <td>${trumpetPlayer.maintype}</td>
+                    <td>${trumpetPlayer.secondtype}</td>
+                    <td>${trumpetPlayer.mainensemble}</td>
+                    <td>${trumpetPlayer.secondensemble}</td>
+                    <td>${trumpetPlayer.isCollegeTeacher}</td>
+                </tr>
+            `;
     }
 }
 export default TrptPlayer;
