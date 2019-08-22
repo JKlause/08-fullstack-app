@@ -1,0 +1,11 @@
+
+p {
+    font-size: 3em;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
