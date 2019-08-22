@@ -1,0 +1,43 @@
+#trumpet-table-main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+main h2 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+table {
+    border: 3px solid  rgb(12, 118, 189);
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    background:rgb(255, 233, 134);;
+    color: rgb(12, 118, 189);
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+td, th {
+    border: 2px solid  rgb(12, 118, 189);
+}
+
+tbody {
+    background: white;
+}
+
+table th, table td {
+    text-align: right;
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background: silver;
+}
