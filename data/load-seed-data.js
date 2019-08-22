@@ -1,0 +1,25 @@
+require('dotenv').config();
+const pg = require('pg');
+const Client = pg.Client;
+const trptData = require('./trpt-data');
+const client = new Client(process.env.DATABASE_URL);
+
+client.connect()
+    .then(() => {
+        return Promise.all(
+            trptData.map(trptPlayer => {
+                return client.query(`
+                    INSTERT INTO trpt_players (lastName, firstName, age, mainType, secondType, mainEnsemble, secondEnsemble, isCollegeTeacher)
+                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8);
+                    `,
+                [trptPlayer.lastName, trptPlayer.firstName, trptPlayer.age, trptPlayer.mainType, trptPlayer.secondType, trptPlayer.mainEnsemble, trptPlayer.secondEnsemble, trptPlayer.isCollegeTeacher]);
+            })
+        );
+    })
+    .then(
+        () => console.log('seed data load complete'),
+        err => console.log(err)
+    )
+    .then(() => {
+        client.end();
+    });
