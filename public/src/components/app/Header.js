@@ -1,9 +1,8 @@
 import Component from '../Component.js';
 
 class Header extends Component {
-    const title = this.props.title || 'PDX Trumpet Players';
-
     renderHTML() {
+        const title = this.props.title || 'PDX Trumpet Players';
         return /*html*/` 
             <header>
                 <img class="logo" src="assets/trumpet.png" alt="Trumpet Angel">
