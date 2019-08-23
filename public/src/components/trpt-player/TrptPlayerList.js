@@ -16,22 +16,25 @@ class TrptPlayerList extends Component {
             });
         }
             
-            
-
-
         const header = new TrptPlayerTableHeader({ keyArray });
-        dom.appendChild(header.renderDOM());
+        const tableTable = dom.querySelector('table');
+        tableTable.appendChild(header.renderDOM());
 
         trumpetPlayers.forEach(trumpetPlayers => {
             const trptPlayerItem = new TrptPlayerItem({ trumpetPlayers });
-            dom.appendChild(trptPlayerItem.renderDOM());
+            let tableBody = dom.querySelector('tbody');
+            tableBody.appendChild(trptPlayerItem.renderDOM());
            
         });
     }
 
     renderHTML() {
         return /*html*/` 
-        <table></table>
+        <div>
+            <table>
+                <tbody id="player-table-body"></tbody>
+            </table>
+        </div>
         `;
     }
 } export default TrptPlayerList;
