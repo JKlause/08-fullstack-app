@@ -9,7 +9,7 @@ class ListApp extends Component {
         dom.prepend(header.renderDOM());
 
         const list = new TrptPlayerList({ trumpetPlayers: [] });
-        const table = dom.querySelector('table');
+        const table = dom.querySelector('#table');
         table.appendChild(list.renderDOM());
 
         getTrptPlayers()
@@ -24,10 +24,7 @@ class ListApp extends Component {
         <main>
             <div id="trumpet-table-main">
                 <h2>Portland Trumpet Player Database</h2>
-                <div>
-                    <table>
-                    </table>
-                </div>
+                <div id="table"></div>
             </div>
         </main>
     `;

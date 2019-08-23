@@ -10,7 +10,7 @@ client.connect()
             CREATE TABLE trpt_players (
                 id SERIAL PRIMARY KEY NOT NULL,
                 last_name VARCHAR(256) NOT NULL,
-                firstN_nme VARCHAR(256) NOT NULL,
+                first_name VARCHAR(256) NOT NULL,
                 age INTEGER NOT NULL,
                 main_type VARCHAR(256) NOT NULL,
                 second_type VARCHAR(256) NOT NULL,

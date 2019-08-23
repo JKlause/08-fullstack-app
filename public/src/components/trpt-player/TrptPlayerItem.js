@@ -5,7 +5,9 @@ class TrptPlayerItem extends Component {
     renderHTML() {
         
         const trumpetPlayer = this.props.trumpetPlayers;
+        console.log(trumpetPlayer);
         return /*html*/`
+        <table>
             <thead>
                 <tr>
                     <th>Last Name</th>
@@ -28,7 +30,8 @@ class TrptPlayerItem extends Component {
                     <td>${trumpetPlayer.secondEnsemble}</td>
                     <td>${trumpetPlayer.isCollegeTeacher}</td>
                 </tr>
-            `;
+        </table>
+        `;
     }
 }
 export default TrptPlayerItem;
