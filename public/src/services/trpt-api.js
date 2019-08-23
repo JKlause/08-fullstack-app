@@ -5,4 +5,4 @@ export function getTrptPlayers() {
 
     return fetch(url)
         .then(response => response.json());
-}
+}   

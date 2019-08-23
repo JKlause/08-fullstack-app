@@ -3,23 +3,10 @@ import Component from '../Component.js';
 
 class TrptPlayerItem extends Component {
     renderHTML() {
-        
         const trumpetPlayer = this.props.trumpetPlayers;
-        console.log(trumpetPlayer);
+        
         return /*html*/`
-        <table>
-            <thead>
-                <tr>
-                    <th>Last Name</th>
-                    <th>First Name</th>
-                    <th>Age</th>
-                    <th>Main Type</th>
-                    <th>Secondary Type</th>
-                    <th>Main Ensemble</th>
-                    <th>Second Ensemble</th>
-                    <th>Is College Teacher?</th>
-                </tr>
-            </thead>
+            <tbody id="player-table-body">
                 <tr>
                     <td>${trumpetPlayer.lastName}</td>
                     <td>${trumpetPlayer.firstName}</td>
@@ -30,7 +17,7 @@ class TrptPlayerItem extends Component {
                     <td>${trumpetPlayer.secondEnsemble}</td>
                     <td>${trumpetPlayer.isCollegeTeacher}</td>
                 </tr>
-        </table>
+            </tbody>
         `;
     }
 }
