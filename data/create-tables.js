@@ -9,13 +9,13 @@ client.connect()
         return client.query(`
             CREATE TABLE trpt_players (
                 id SERIAL PRIMARY KEY NOT NULL,
-                lastName VARCHAR(256) NOT NULL,
-                firstName VARCHAR(256) NOT NULL,
+                last_name VARCHAR(256) NOT NULL,
+                firstN_nme VARCHAR(256) NOT NULL,
                 age INTEGER NOT NULL,
-                mainType VARCHAR(256) NOT NULL,
-                secondType VARCHAR(256) NOT NULL,
-                mainEnsemble VARCHAR(256) NOT NULL,
-                secondEnsemble VARCHAR(256) NOT NULL,
+                main_type VARCHAR(256) NOT NULL,
+                second_type VARCHAR(256) NOT NULL,
+                main_ensemble VARCHAR(256) NOT NULL,
+                second_ensemble VARCHAR(256) NOT NULL,
                 is_college_teacher BOOLEAN NOT NULL
             )
         `);

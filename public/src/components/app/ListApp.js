@@ -26,18 +26,6 @@ class ListApp extends Component {
                 <h2>Portland Trumpet Player Database</h2>
                 <div>
                     <table>
-                        <thead>
-                            <tr>
-                                <th>Last Name</th>
-                                <th>First Name</th>
-                                <th>Age</th>
-                                <th>Main Type</th>
-                                <th>Secondary Type</th>
-                                <th>Main Ensemble</th>
-                                <th>Second Ensemble</th>
-                                <th>Is College Teacher?</th>
-                            </tr>
-                        </thead>
                     </table>
                 </div>
             </div>
