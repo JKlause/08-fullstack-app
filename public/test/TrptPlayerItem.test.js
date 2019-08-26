@@ -6,7 +6,7 @@ QUnit.module('trumpet html');
 
 test('test name', assert => {
     // arrange
-    const trptPlayerObj = {
+    const trumpetPlayers = {
         lastName: 'Work',
         firstName: 'Jeff',
         age: 45,
@@ -30,7 +30,7 @@ test('test name', assert => {
         </tr>
 `;
 
-const props = { trptPlayer: trptPlayerObj };
+const props = { trumpetPlayers };
 const trptPlayer = new TrptPlayer(props);
 const html = trptPlayer.renderHTML();
 
