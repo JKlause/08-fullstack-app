@@ -1,0 +1,68 @@
+#trumpet-form-div {
+    border: 10px solid rgb(255, 233, 134); 
+    width: 40vw;
+    background-color: silver;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px
+}
+
+main h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: rgb(12, 118, 189);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+form label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 2em;
+}
+
+form input {
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+}
+
+form select {
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+}
+
+input[type=checkbox] {
+    height: 30px;
+}
+
+#submit-button {
+    height: 30px;
+    margin: 20px;
+    align-self: center;
+}
+
+#checkbox-div {
+   display: inline-block;
+   margin-top: 5px;
+   margin-bottom: 20px;
+}
+
+#checkbox-div input {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+
+#checkbox-div label {
+    margin: 0 0 0 5px;
+}

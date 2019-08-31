@@ -8,78 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/main.css">
-    <link rel="stylesheet" href="src/components/app/Header.css">
-    <link rel="stylesheet" href="src/components/app/FormApp.css">
+    <link rel="stylesheet" href="src/styles/Header.css">
+    <link rel="stylesheet" href="src/styles/FormApp.css">
+    
 </head>
 <body>
-    <div id="root">
-        <header>
-            <img class="logo" src="assets/trumpet.png" alt="Trumpet Angel">
-            <h1>Title of the page</h1>
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="trpt-list.html">Trumpet Players</a>
-                    <a href="trpt-form.html">Add A Player</a>
-                </nav>
-        </header>
-        <main>
-            <div id="trumpet-form-div">
-                <h2>Add A Trumpet Player To Database</h2>
-                <form id="trumpet-form">
-                    <div>
-                        <div>
-                            <input type="text" name="last-name" id="last-name" required>
-                            <label for="last-name">Enter Last Name</label>
-                        </div>
-                        <div>
-                            <input type="text" name="first-name" id="first-name" required>
-                            <label for="first-name">Enter First Name</label>
-                        </div>
-                        <div>
-                            <input type="number" name="age" id="age" min="0" max="100" required>
-                            <label for="age">Enter Age</label>
-                        </div>
-                        <div>
-                            <select id="type-1" name="type-1" required>
-                                <option value="n/a">N/A</option>
-                                <option value="commercial">Commercial</option>
-                                <option value="free-lance">Free-lance</option>
-                                <option value="orchestral">Orchestral</option>
-                            </select>
-                            <label for="type-1">Select First Type</label>
-                        </div>
-                        <div>
-                            <select id="type-2" name="type-2" required>
-                                <option value="n/a">N/A</option>
-                                <option value="commercial">Commercial</option>
-                                <option value="free-lance">Free-lance</option>
-                                <option value="orchestral">Orchestral</option>
-                            </select>
-                            <label for="type-2">Select Second Type</label>
-                        </div>
-                        <div>
-                            <input type="text" name="main-ensemble" id="main-ensemble" required>
-                            <label for="main-ensemble">Enter Main Ensemble</label>
-                        </div>
-                        <div>
-                            <input type="text" name="secondary-ensemble" id="secondary-ensemble" required>
-                            <label for="secondary-ensemble">Enter Secondary Ensemble</label>
-                        </div>
-                        <div id="is-college-teacher">
-                            <h3>Is College Teacher?</h3>
-                            <div>
-                                <input type="radio" id="teacher-false" name="is-college-teacher" value="false" checked=true>
-                                <label for="teacher-false">False</label>
-                            </div>
-                            <div>
-                                <input type="radio" id="teacher-true" name="is-college-teacher" value="true">
-                                <label for="teacher-true">True</label>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </main>
-    </div>
+    <div id="root"></div>  
+    <script src="./src/form-index.js" type="module"></script>
+</body>
 </body>
 </html>

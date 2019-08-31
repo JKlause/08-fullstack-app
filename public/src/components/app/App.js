@@ -3,7 +3,7 @@ import Header from './Header.js';
 
 class App extends Component {
     onRender(dom) {
-        const header = new Header();
+        const header = new Header({ title: 'PDX TRPT DB' });
         dom.prepend(header.renderDOM());
     }
     
