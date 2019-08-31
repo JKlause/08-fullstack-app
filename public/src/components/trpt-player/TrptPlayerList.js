@@ -7,6 +7,7 @@ class TrptPlayerList extends Component {
     onRender(dom) {
         let keyArray = [];
         const trumpetPlayers = this.props.trumpetPlayers;
+        console.log(trumpetPlayers);
         if(trumpetPlayers[0]){
             keyArray = Object.keys(trumpetPlayers[0]);
             keyArray.find(key => {

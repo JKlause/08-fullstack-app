@@ -9,7 +9,6 @@ client.connect()
         return client.query(`
         DROP TABLE IF EXISTS trpt_players;
         DROP TABLE IF EXISTS types;
-        DROP TABLE IF EXISTS ensembles;
         `);
     })
     .then(

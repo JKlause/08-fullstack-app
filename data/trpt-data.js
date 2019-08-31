@@ -4,9 +4,7 @@ module.exports = [
         firstName: 'Jeff',
         age: 45,
         mainType: 'Orchestral',
-        secondType: 'Soloist',
         mainEnsemble: 'Oregon Symphony',
-        secondEnsemble:'n/a',
         isCollegeTeacher: false,
     },
     {
@@ -14,9 +12,7 @@ module.exports = [
         firstName: 'Sarah',
         age: 38,
         mainType: 'Orchestral',
-        secondType: 'Freelance',
         mainEnsemble: 'Pacific Northwest Ballet',
-        secondEnsemble: 'Eugene Symphony',
         isCollegeTeacher: true
     },
     {
@@ -24,9 +20,7 @@ module.exports = [
         firstName: 'Dave',
         age: 55,
         mainType: 'Orchestral',
-        secondType: 'n/a',
         mainEnsemble: 'Oregon Symphony',
-        secondEnsemble: 'n/a',
         isCollegeTeacher: true
     },
     {
@@ -34,9 +28,7 @@ module.exports = [
         firstName: 'Doug',
         age: 40,
         mainType: 'Orchestral',
-        secondType: 'n/a',
         mainEnsemble: 'Oregon Symphony',
-        secondEnsemble: 'n/a',
         isCollegeTeacher: false
     },
     {
@@ -44,9 +36,7 @@ module.exports = [
         firstName:'Bob',
         age: 65,
         mainType: 'Orchestral',
-        secondType: 'Freelance',
         mainEnsemble: 'Oregon Ballet Theatre',
-        secondEnsemble: 'Portland Opera',
         isCollegeTeacher: false
     },
     {
@@ -54,9 +44,7 @@ module.exports = [
         firstName: 'Craig',
         age: 65,
         mainType: 'Freelance',
-        secondType: 'Orchestral',
         mainEnsemble: 'n/a',
-        secondEnsemble: 'n/a',
         isCollegeTeacher: true
     },
     {
@@ -64,9 +52,7 @@ module.exports = [
         firstName: 'Logan',
         age: 32,
         mainType: 'Freelance',
-        secondType: 'Orchestral',
         mainEnsemble: 'Eugene Concert Orchestra',
-        secondEnsemble: 'Rose City Brass Quintet',
         isCollegeTeacher: false
     },
     {
@@ -74,9 +60,7 @@ module.exports = [
         firstName: 'Joe',
         age: 32,
         mainType: 'Freelance',
-        secondType: 'Orchestral',
         mainEnsemble: 'Eugene Symphony',
-        secondEnsemble: 'Rose City Brass Quintet',
         isCollegeTeacher: true
     },
     {
@@ -84,9 +68,7 @@ module.exports = [
         firstName: 'James',
         age: 38,
         mainType: 'Freelance',
-        secondType: 'Orchestral',
         mainEnsemble: 'Portland Columbia Symphony',
-        secondEnsemble: 'East Oregon Symphony',
         isCollegeTeacher: false
     },
     {
@@ -94,9 +76,7 @@ module.exports = [
         firstName: 'Steve',
         age: 55,
         mainType: 'Freelance',
-        secondType: 'Orchestral',
         mainEnsemble: 'Oregon Symphony',
-        secondEnsemble: 'n/a',
         isCollegeTeacher: true
     },
     {
@@ -104,9 +84,7 @@ module.exports = [
         firstName: 'John',
         age: 40,
         mainType: 'Freelance',
-        secondType: 'Commercial',
         mainEnsemble: 'Portlandia Brass Ensemble',
-        secondEnsemble: 'n/a',
         isCollegeTeacher: false
     },
     {
@@ -114,9 +92,7 @@ module.exports = [
         firstName: 'Tom',
         age: 40,
         mainType: 'Commercial',
-        secondType: 'Freelance',
         mainEnsemble: 'Dirty Revival',
-        secondEnsemble: 'n/a',
         isCollegeTeacher: false
     },
     {
@@ -124,9 +100,7 @@ module.exports = [
         firstName: 'Dick',
         age: 55,
         mainType: 'Freelance',
-        secondType: 'Commercial',
         mainEnsemble: 'n/a',
-        secondEnsemble: 'n/a',
         isCollegeTeacher: false
     },
     {
@@ -134,9 +108,7 @@ module.exports = [
         firstName: 'Bruce',
         age: 45,
         mainType: 'Freelance',
-        secondType: 'Orchestral',
         mainEnsemble: 'Vancouver Symphony',
-        secondEnsemble: 'n/a',
         isCollegeTeacher: false
     },
     {
@@ -144,9 +116,7 @@ module.exports = [
         firstName: 'Paul',
         age: 55,
         mainType: 'Freelance',
-        secondType: 'Commercial',
         mainEnsemble: 'n/a',
-        secondEnsemble: 'n/a',
         isCollegeTeacher: false
     },
     {
@@ -154,9 +124,7 @@ module.exports = [
         firstName: 'Charlie',
         age: 55,
         mainType: 'Freelance',
-        secondType: 'Orchestral',
         mainEnsemble: 'Oregon Symphony',
-        secondEnsemble: 'n/a',
         isCollegeTeacher: false
     }
 ];
